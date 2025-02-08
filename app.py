@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 # Lista de arcos de One Piece
-arcos_one_piece = [
+one_piece_arcs = [
     "Arco de East Blue",
     "Arco de Baratie",
     "Arco de Arlong Park",
@@ -36,7 +36,7 @@ arcos_one_piece = [
 
 @app.route('/')
 def index():
-    return render_template('index.html', arcos=arcos_one_piece)
+    return render_template('index.html', arcs=one_piece_arcs)
 
 if __name__ == '__main__':
     app.run(debug=True)

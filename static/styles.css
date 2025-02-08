@@ -1,0 +1,14 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #ffcc00; /* Color amarillo para el título */
+}
+
+.list-group-item {
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+
