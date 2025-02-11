@@ -1,0 +1,15 @@
+
+.accordion-button {
+    background-color: #6e6161;
+    color: #ef0505;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #555;
+    color: #ff5500; /* Color amarillo cuando está expandido */
+}
+
+.accordion-body {
+    background-color: #333333;
+    color: #ffffff;
+}
